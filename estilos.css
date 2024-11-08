@@ -1,0 +1,365 @@
+body{
+	margin: 0;
+	background-color: #f2f0d8; 
+} 
+@font-face{
+		font-family:Lemon Days;
+		src :url("fonts/Lemon Days.otf");
+}
+
+header{
+		width: 100%;  
+		height:auto;
+		display:flex; 
+		justify-content: space-evenly;
+		background-color:#472c02;
+		align-items: center
+} 
+
+nav {
+	width: 80%;
+	height:auto;
+	color:#e8cfa7 ;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	margin: auto;
+	border-top-right-radius: 17px;
+}
+
+nav a:link, a:visited { 
+	color:#e3c9a8; 
+	text-decoration: none;
+	font-size: 19px;
+}
+
+nav a:hover{ 
+	background-color: #936c45; 
+	color:lightyellow; 
+	border-radius: 5px; 
+
+} 
+
+.mynav ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0;
+}
+
+.mynav li:not(:last-child) {
+  margin-right: 20px;
+}
+
+.mynav a {
+  display: block;
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+  padding: 7px 15px;
+}
+
+.target {
+  position: absolute;
+  border-bottom: 4px solid transparent;
+  z-index: -1;
+  transform: translateX(-60px);
+}
+
+.mynav a,
+.target {
+  transition: all .35s ease-in-out;
+}
+
+main{ 
+	width: 100%; 
+	height: auto; 
+	display: flex; 
+	justify-content: center; 
+	flex-direction: column;
+	align-items: center;
+}
+
+
+.logo img{ 
+
+	width: 100%;  
+	height:145px; 
+	margin-left:9%; 
+}
+
+.logo2 img{ 
+	width: 100%;  
+	height:199px; 
+	margin-left: 5%; 
+}
+
+
+
+.caja{ 
+
+	width: 50%; 
+	height: auto; 
+	display: flex; 
+	justify-content: space-evenly;
+	font-size: 25px;
+	margin-bottom: 2%; 
+	margin-top: 2%; 
+}
+.caja a:link { 
+	color : #f5decb;
+	background-color : #5b3209;
+}
+
+.caja a:hover
+{ 
+	transition: all 1s ;
+	 color : #5b3209;
+	background-color :#e3c9a8;
+}
+.caja a:visited{ 
+	color:#1a1007; 
+	background-color:#d1ab86 ; 
+
+}
+
+.texto{
+		text-align: center; 
+		color:#664004;
+		font-family:"Lemon Days";
+		font-size:20px;
+}
+
+.slider{
+	width: 90%; 
+	height:auto; 
+}
+
+
+footer{ 
+	width: 100%;
+    height:auto;
+    background-color:#6f4d2d;
+	display:flex;
+	color:black;
+	flex-direction: row;
+	align-items: center; 
+	justify-content: space-around;
+	margin-top:2%; 
+}
+
+
+.nav2 a:link, a:visited a:hover{ 
+	width: 20%;
+	height:auto;
+	display: flex;
+	justify-content: center;
+	align-items: center; 
+	margin: auto;
+	color:#472c02 ; 
+	flex-direction: column; 
+	font-size: 20px; 
+	}
+
+/*---------------------------NOSOTROS-------------------------------*/
+.foto{
+	width: auto; 
+	
+	height: auto; 
+}
+img{ 
+	width: 100%; 
+	height:auto;
+	margin-left:-4%;
+	margin-right: 4%; 
+}
+
+
+.otro{
+	width:90%;
+	height:auto;
+	margin:auto;
+	display:flex;
+	justify-content:space-evenly;
+	align-items:center;
+}
+
+aside{
+	display:flex;
+	flex-direction:column;
+	width:50%;
+	height:auto;
+	border-radius:20px;
+	padding:2%;
+	border-style:solid;
+	border-width:2px;
+	margin:20px;
+	box-shadow: 1px 2px 1px black; 
+}
+	
+}
+section{
+	width:60%;
+	height:auto;
+	display:flex;
+	flex-direction:column;
+	margin-left:20px;
+}
+p{
+	font-size: 25px; 
+	line-height: 35px; 
+	text-align: justify;
+	
+	
+}
+
+.info{ 
+	width: 5%; 
+	height: auto; 
+	font-size: 20px; 
+	text-align: center; 
+
+}
+
+
+
+.f2{ 
+	width: 100%;
+    height:auto;
+    background-color:#6f4d2d;
+	display:flex;
+	color:black;
+	flex-direction: row;
+	align-items: center; 
+	justify-content: space-around;
+	margin-bottom: 1%;
+ 
+}
+
+/*-----------------------------------------SUCURSALES-----------------------------*/
+.mapa{
+	width: 100% ; 
+	height: auto; 
+	display:flex;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	justify-content: center;
+
+}
+
+.local a:link { 
+ color : #5b3209;
+background-color :#e3c9a8;
+}
+
+.l2 a:link  { 
+ color : #5b3209;
+background-color :#e3c9a8;
+}
+
+.l3 a:link  { 
+ color : #5b3209;
+background-color :#e3c9a8;
+}
+
+.l4 a:link{ 
+ color : #5b3209;
+ background-color: #e3c9a8;
+}
+	
+
+.local a:hover{
+	font-size: 25px; 
+	color:  #f5decb; 
+	background-color: #b17c54;
+}
+
+
+.l2 a:hover{
+	font-size: 25px; 
+	color:  #f5decb; 
+	background-color: #b17c54;
+}
+.l3 a:hover{
+	font-size: 25px; 
+	color:  #f5decb; 
+	background-color: #b17c54;
+}
+.l4 a:hover{
+	font-size: 25px; 
+	color:  #f5decb; 
+	background-color: #b17c54;
+}
+
+.local a:visited{ 
+ color : #5b3209;
+ background-color: #e3c9a8;
+}
+.l2 a:visited{ 
+ color : #5b3209;
+ background-color: #e3c9a8;
+}
+
+.l a:visited{ 
+ color : #5b3209;
+ background-color: #e3c9a8;
+}
+
+.l4 a:visited { 
+ color : #5b3209;
+ background-color: #e3c9a8;
+}
+
+
+.local{
+	width:35%; 
+	height:auto; 
+	display: flex; 
+	margin-top:1%;
+	margin-bottom:1%; 
+	border-radius: 3px;
+	justify-content:center;
+	font-size:20px;
+}
+.otro2{
+	width:90%;
+	height:auto;
+	margin:auto;
+	display:flex;
+	justify-content:space-evenly;
+	align-items:center;
+	text-align: justify;
+	flex-direction: column; 
+}
+
+.l2{
+	width:35%; 
+	height:auto; 
+	display: flex; 
+	margin-top:1%;
+	margin-bottom: 1%;
+	border-radius: 10px;
+	justify-content:center;
+	font-size: 20px;
+}
+
+.l3{
+	width:35%; 
+	height:auto; 
+	display: flex;  
+	margin-top:1%;
+	margin-bottom: 1%;
+	justify-content:center;
+	font-size: 20px;
+}
+
+.l4{
+	width:35%; 
+	height:auto; 
+	display: flex; 
+	margin-top:1%;
+	margin-bottom: 1%;
+	justify-content:center;
+	font-size: 20px;
+}
